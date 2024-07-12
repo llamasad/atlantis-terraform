@@ -1,3 +1,0 @@
-  repos:
-    - id: github.com/llamasad/atlantis-terraform
-      allowed_overrides: [workflow]
