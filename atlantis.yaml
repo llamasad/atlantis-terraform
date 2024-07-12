@@ -1,8 +1,0 @@
-version: 3
-projects:
-  - name: my-terraform-project
-    dir: .
-    autoplan:
-      when_modified: ["*.tf", "*.tfvars"]
-      enabled: true
-    apply_requirements: [approved]
