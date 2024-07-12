@@ -1,7 +1,6 @@
-# atlantis.yaml
+version: 3
+allowed_overrides:
+  - workflow
 repos:
   - id: /.*/
-    allowed_overrides:
-      - apply_requirements
-      - workflow
     workflow: default
